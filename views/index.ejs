@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/simditor.css' />
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+  	<div class="left_con">
+  		<div class="char_con">
+			<div class="txt_gray cahr_title">Book Name</div>
+			<div><a href="#" class="default">封面</a></div>
+  			<ul class="chapterAll">
+  				<li class="active" cData='1'><a href="javascript:void(0)" class="default"><i class="chapter_num"> 1. </i> <span class="name">新章节</span></a></li>
+  			</ul>
+			<div class="new_con"><a href="#" class="newChapter">New</a></div>
+  		</div>
+  	</div>
+	<textarea class="editor" placeholder="" autofocus style="display:none;"></textarea>
+	<div class="right_con">
+		<div class="user_tool">
+			<a class="export" href="javascript:void(0)">导出</a>
+			<!-- <a href="javascript:void(0)">登入</a>
+			<a href="javascript:void(0)">注册</a> -->
+		</div>
+	</div>
+	<script src="/javascripts/jquery.min.js"></script>
+	<script src="/javascripts/module.js"></script>
+	<script src="/javascripts/hotkeys.js"></script>
+	<script src="/javascripts/uploader.js"></script>
+	<script src="/javascripts/simditor.js"></script>
+	<script src="/javascripts/editorMain.js"></script>
+</body>
+</html>
